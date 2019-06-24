@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_in_message">Dont have an account</string>
+    <string name="sign_in">Sign in!</string>
+    <string name="or">OR</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="name"> Aniket</string>
+    <string name="sign_in_with_sn">Sign in with Social Network</string>
+    <string name="username"> Aniket2824</string>
+    <string name="number"> 7895260436</string>
+    <string name="email_add"> aniketbartwal96@gamil.com</string>
+    <string name="address">Raipur Dehradun 248001</string>
+</resources>

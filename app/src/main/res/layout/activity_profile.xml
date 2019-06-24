@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileActivity">
+
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:id="@+id/img_people"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_people"
+        android:layout_marginStart="150dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        app:cardCornerRadius="20dp">
+
+
+        <TextView
+            android:id="@+id/lbl_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/name"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/img_people"
+            android:textSize="30sp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/lbl_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/lbl_name"/>
+
+    <TextView
+        android:id="@+id/lbl_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/email_add"
+        android:textSize="30sp"
+        android:layout_below="@+id/lbl_username"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/lbl_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lbl_email"
+        android:text="@string/number"
+        android:textSize="30sp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/address"
+        android:textSize="30sp"
+        android:layout_below="@+id/lbl_number"
+        android:layout_marginTop="15dp"/>
+
+
+</RelativeLayout>
+
